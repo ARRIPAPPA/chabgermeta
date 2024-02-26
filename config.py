@@ -12,9 +12,9 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6659730800:AAHlh_9L2IwS86Eb9H9HrjMQHojP7MvN65E")  # ⚠️ Required
 
     # premium 4g renaming client
-    STRING_API_ID = os.environ.get("STRING_API_ID", "")
-    STRING_API_HASH = os.environ.get("STRING_API_HASH", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_API_ID = os.environ.get("STRING_API_ID", "10243932")
+    STRING_API_HASH = os.environ.get("STRING_API_HASH", "eff38d6637c38b7f84943bc3188a2cc5")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQCcT1wArApBg9PlwXJAOkCeujVsPgwnu79rMC5n4LfoEBsrZNzwEqgIqCytn1AHi9TCQjYdQd0BqKMoQBm4ewnO9Vatx_1VXqhdMy7WkZ50bi9_qULIzJecNjftOes0gpOK0mc-r1Edaxv-08IBXbp43WGaEiuA8LCKxT4YTbpPyW-gEiZZXF2ttqHspdmWmSytdXR7sBSaqpwe1WN7TUESRSAz6rHtlQjkrEtdO0m7KrHH6CIQuMWq5ntxy-zqpsHi8ki0BrfJVIu03hF431sTaPICAiKmnSkKHeINQQaXw1OtJMmQ_yAUIIx1eBkHbRfSnnTCM0YUpkUQS6i75mzFk82STgAAAAFDLWhgAA")
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Cluster0")
